@@ -1,5 +1,5 @@
 #%%
- from pandas.core.arrays.sparse.scipy_sparse import sparse_series_to_coo
+from pandas.core.arrays.sparse.scipy_sparse import sparse_series_to_coo
 from sklearn.feature_extraction import DictVectorizer   #feature_extraction特征抽取包
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer   #text文本特征抽取包
 from sklearn.preprocessing import MinMaxScaler, StandardScaler #minmaxscaler是归一化，standardScaler是标准化
